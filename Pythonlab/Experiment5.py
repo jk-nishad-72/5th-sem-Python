@@ -1,6 +1,7 @@
 
 # Objective: Write programs to understand the use of Numpy’s Structured Arrays, Reading and Writing Array Data on Files.
 # Program:
+
 # Structured Arrays : Structured arrays allow you to define and access different fields by names.
 
 import numpy as np
@@ -19,6 +20,8 @@ print("Ages:", structured_arr['Age'])
 structured_arr['Age'][0] = 26.5
 print("Modified Structured Array:") 
 print(structured_arr)
+
+
 
 # Reading and Writing Array Data to Files
 # Numpy provides functions to easily save and load arrays.

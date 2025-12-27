@@ -14,6 +14,7 @@ print(type(array))
 
 # 2. Basic Operations :Performing basic mathematical operations on arrays.
 
+
 # Basic Operations
 array1 = np.array([1, 2, 3, 4, 5])
 array2 = np.array([5, 4, 3, 2, 1])
