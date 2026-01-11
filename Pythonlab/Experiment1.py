@@ -24,7 +24,8 @@ if x > 5:
 else:
     print("x is not greater than 5")
 
-# 3. Indentation :Indentation is used to define the scope of loops, functions, and conditional statements in Python. Proper indentation is essential.
+# 3. Indentation :
+# Indentation is used to define the scope of loops, functions, and conditional statements in Python. Proper indentation is essential.
 # Indentation
 def check_even(num):
     if num % 2 == 0:
@@ -33,7 +34,8 @@ def check_even(num):
         print(f"{num} is odd")
 check_even(4)
 
-# 4. Comments :Comments are used to explain code and are ignored by the interpreter. Single-line comments start with #, and multi-line comments are enclosed within triple quotes ''' or """.
+# 4. Comments :Comments are used to explain code and are ignored by the interpreter. Single-line comments start with #,
+# and multi-line comments are enclosed within triple quotes ''' or """.
 # Single-line comment
 x = 5  # This is a single-line comment
 
@@ -62,12 +64,14 @@ is_equal = (a == b)
 is_greater = (a > b)
 
 # Logical Operators
-and_op = (a > 5) and (b < 5)
+and_op = (a < 5) and (b < 5)
 or_op = (a < 5) or (b < 5)
+not_op = not(a >= 10 ) 
 
-print(f"Sum: {sum_ab}, Difference: {diff_ab}, Product: {prod_ab}, Division: {div_ab}")
-print(f"Is Equal: {is_equal}, Is Greater: {is_greater}")
-print(f"AND Operation: {and_op}, OR Operation: {or_op}")
+print(f"NOT Operation Result: {not_op}")
+# print(f"Sum: {sum_ab}, Difference: {diff_ab}, Product: {prod_ab}, Division: {div_ab}")
+# print(f"Is Equal: {is_equal}, Is Greater: {is_greater}")
+# print(f"AND Operation: {and_op}, OR Operation: {or_op}")
 
 
 
